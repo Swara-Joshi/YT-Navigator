@@ -95,7 +95,12 @@ Current version: 0.1.2 (March 2025)
 | Advaith Krishna Vasisht | • LangGraph conversational agent<br>• Embedding pipeline using Sentence Transformers<br>• Hybrid search algorithm (vector + BM25)<br>• Transcript processing and segmentation |
 | Swara Joshi | • UI/UX design and implementation<br>• Chat interface with async messaging<br>• Search result visualization<br>• Documentation and testing |
 
+## Important Links
 
+- **GitHub Repository**: https://github.com/Swara-Joshi/YT-Navigator
+- **Live Application**: https://www.generalming.me
+- **Demo Video**: https://youtu.be/kYLsUgWuFL8
+  
 ### Code Standards
 
 We use Black for formatting, Ruff for linting, and isort for import sorting, enforced with pre-commit hooks.
