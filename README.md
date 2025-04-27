@@ -22,6 +22,21 @@ YT Navigator is an AI-powered application that helps you navigate and search thr
 - **⚙️ Data Processing**: BeautifulSoup, Scrapetube, youtube-transcript-api
 - **🎨 Frontend**: Django templates with modern CSS
 
+## 🔄 Architecture Overview
+![YT Navigator Architecture](./images/agent_workflow.jpg)
+The system architecture consists of three main components:
+
+- **Chunks Retrieval Tool**: Combines semantic search (using BAAI/bge-small-en-v1.5 and PGVector) with keyword search (BM25 on PostgreSQL) to find relevant video segments. Results are reranked using a cross-encoder model to return the most relevant video chunks.
+SQL Tool: Provides a secure interface for database queries, limited to SELECT statements only, to retrieve information from the Videos and channel tables.
+Agent System: Consists of two interconnected agents:
+
+- **Base Agent**: Uses llama-3.1-8b-instant on Groq to route queries based on their nature (tool-requiring, irrelevant, or directly answerable)
+ReAct Agent: Uses qwen-qwq-32b on Groq to handle complex queries requiring tool assistance in a recursive reasoning pattern
+
+
+
+This architecture enables efficient information retrieval and natural conversation about YouTube content.
+
 ## 🚀 Installation
 
 ### 💻 Without Docker
