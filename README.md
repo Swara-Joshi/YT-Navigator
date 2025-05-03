@@ -92,8 +92,8 @@ Current version: 0.1.2 (March 2025)
 | Team Member | Areas of Contribution |
 |-------------|------------------------|
 | Ramy Solanki | • System architecture and backend development<br>• Django app structure and core functionality<br>• Semantic search with PGVector<br>• Docker and deployment setup |
-| Advaith Krishna Vasisht | • LangGraph conversational agent<br>• Embedding pipeline using Sentence Transformers<br>• Hybrid search algorithm (vector + BM25)<br>• Transcript processing and segmentation |
-| Swara Joshi | • UI/UX design and implementation<br>• Chat interface with async messaging<br>• Search result visualization<br>• Documentation and testing |
+| Swara Joshi | • LangGraph conversational agent<br>• Embedding pipeline using Sentence Transformers<br>• Hybrid search algorithm (vector + BM25)<br>• Transcript processing and segmentation |
+| Advaith Krishna Vasisht | • UI/UX design and implementation<br>• Chat interface with async messaging<br>• Search result visualization<br>• Documentation and testing |
 
 ## Important Links
 
